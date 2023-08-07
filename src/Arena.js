@@ -6,9 +6,7 @@ class Arena {
   }
 
   getDistance(hero, monster) {
-    return Math.sqrt(
-      Math.pow(monster.x - hero.x, 2) - Math.pow(monster.y - hero.y, 2)
-    ).toFixed(2);
+    return Math.hypot(hero.x - monster.x, hero.y - monster.y).toFixed(2);
   }
 
   isTouchable(attacker, defender) {

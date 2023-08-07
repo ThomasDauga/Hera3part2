@@ -60,6 +60,8 @@ class Fighter {
    * Return range value
    */
   getRange() {
+    console.log("fighter.js getrange");
+
     return this.range;
   }
 }
