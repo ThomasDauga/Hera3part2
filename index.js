@@ -4,7 +4,11 @@ const heracles = new Hero("👨 Heracles", 20, 6, "./images/heracles.svg", 5, 5)
 
 /** Creating his weapon and associating it */
 const weapon = new Weapon("sword", 10, "./images/sword.svg", 0.5);
+<<<<<<< HEAD
 const bow = new Weapon("bow", 8, "./images/bow.svg", 5);
+=======
+const bow = new Weapon("bow", 8, "bow.svg", 5);
+>>>>>>> 84f7cd07783fd5903cc87cc144dceedb8aff2510
 heracles.weapon = bow;
 
 /** Creating his shield and associating it */
